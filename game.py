@@ -3,6 +3,7 @@
 from gameparts import Board
 from gameparts.exceptions import CellOccupiedError, FieldIndexError
 
+
 def main():
     game = Board()
     current_player = 'X'
